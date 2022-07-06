@@ -1,0 +1,43 @@
+@import '../abstract/variaveis';
+
+#curiosidades {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img-curiosidades {
+        padding-bottom: 2px;
+
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .mensagem {
+
+        h3 {
+            font-size: $tamanho-do-texto / 1.5;
+            font-weight: 300;
+            margin-top: 25px;
+            margin-bottom: 20px;
+            color: $cor-primaria;
+        }
+
+        h4 {
+            text-align: left;
+            font-size: $tamanho-do-texto / 3;
+            font-weight: 300;
+            line-height: 1.25rem;
+        }
+
+        p {
+            font-size: $tamanho-do-texto / 3;
+            font-weight: 300;
+            color: $cor-primaria;
+            line-height: 1.25rem;
+            margin-bottom: 40px;
+        }
+    }
+}
